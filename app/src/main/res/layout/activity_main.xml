@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:textStyle="bold"
-            android:text="미스트롯3 가수 응원하기"
+            android:text="오빠시대 투표하기"
             android:gravity="center"
             android:textSize="25sp"
             app:layout_constraintTop_toTopOf="parent"

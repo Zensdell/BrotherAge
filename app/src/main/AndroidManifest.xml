@@ -18,6 +18,10 @@
         android:usesCleartextTraffic="true"
         android:networkSecurityConfig="@xml/network_security_config"
         >
+        <!-- 실제 사용시 광고 아이디 바꿀것 !!!! -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
         <activity
             android:name=".VoteWebView"
             android:exported="false">

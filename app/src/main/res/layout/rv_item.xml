@@ -27,7 +27,7 @@
                 android:id="@+id/best_comment_decorator"
                 android:layout_width="match_parent"
                 android:layout_height="30sp"
-                android:background="#FAB0BD"
+                android:background="#40CC6B"
                 android:visibility="visible"
                 android:gravity="center">
                 <ImageView

@@ -6,12 +6,13 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
+
         android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/broicon"
+        android:label="오빠시대\n투표하기"
+        android:roundIcon="@mipmap/broicon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BrotherAge"
         tools:targetApi="31"

@@ -18,12 +18,12 @@ class VoteWebView : AppCompatActivity() {
 
         val vtWebView = findViewById<WebView>(R.id.voteWeb)
         vtWebView.webViewClient= WebViewClient()
-        vtWebView.loadUrl("https://1fa.societyfa.com/entry/%EB%AF%B8%EC%8A%A4%ED%8A%B8%EB%A1%AF3-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD")
+        vtWebView.loadUrl("https://1fa.societyfa.com/entry/%EC%98%A4%EB%B9%A0%EC%8B%9C%EB%8C%80-%ED%88%AC%ED%91%9C%ED%95%98%EA%B8%B0")
 
         if (vtWebView != null) {
             vtWebView.getSettings().setDomStorageEnabled(true)
             vtWebView.getSettings().setJavaScriptEnabled(true)
-            vtWebView.loadUrl("https://1fa.societyfa.com/entry/%EB%AF%B8%EC%8A%A4%ED%8A%B8%EB%A1%AF3-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD")
+            vtWebView.loadUrl("https://1fa.societyfa.com/entry/%EC%98%A4%EB%B9%A0%EC%8B%9C%EB%8C%80-%ED%88%AC%ED%91%9C%ED%95%98%EA%B8%B0")
 
         }
 

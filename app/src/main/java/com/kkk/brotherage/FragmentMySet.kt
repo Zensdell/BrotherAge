@@ -80,7 +80,7 @@ class FragmentMySet : Fragment() {
             selectorIntent.data = Uri.parse("mailto:")
 
             selectorIntent.putExtra(Intent.EXTRA_EMAIL, arrayOf("sookimy97@gmail.com"))
-            selectorIntent.putExtra(Intent.EXTRA_SUBJECT, "미스트롯3 응원하기 문의 메일")
+            selectorIntent.putExtra(Intent.EXTRA_SUBJECT, "오빠시대 응원하기 문의 메일")
             selectorIntent.putExtra(Intent.EXTRA_TEXT,  "문의하실 사항을 적어주세요")
 
             startActivity(Intent.createChooser(selectorIntent, "이메일 보내기"))
@@ -89,7 +89,7 @@ class FragmentMySet : Fragment() {
         val useSite = view.findViewById<TextView>(R.id.useRule1)
         useSite?.setOnClickListener {
             Log.d(TAG, "어??여기서 찍어봐야될거아냐 그래야 알수있는거아냐!!!! ")
-            val uri = Uri.parse("https://sites.google.com/view/mstrot3use")
+            val uri = Uri.parse("https://sites.google.com/view/broageuse")
             val intent = Intent(Intent.ACTION_VIEW, uri)
             startActivity(intent)
         }

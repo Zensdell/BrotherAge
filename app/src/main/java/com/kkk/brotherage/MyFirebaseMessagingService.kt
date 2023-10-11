@@ -23,7 +23,7 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
     }
     @SuppressLint("RemoteViewLayout")
     fun getRemoteView (title: String,message: String) : RemoteViews {
-        val remoteView = RemoteViews("package com.kkk.mstrot3",R.layout.notification)
+        val remoteView = RemoteViews("package com.kkk.brotherage",R.layout.notification)
 
         remoteView.setTextViewText(R.id.title,title)
         remoteView.setTextViewText(R.id.message,message)
@@ -47,7 +47,7 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
                 .setVibrate(longArrayOf(1000,1000,1000,1000))
                 .setOnlyAlertOnce(true)
                 .setContentIntent(pendingIntent)
-                .setContentTitle("미스트롯3 응원하기")
+                .setContentTitle("오빠시대 투표하기")
 
         builder.priority= NotificationCompat.PRIORITY_HIGH
 

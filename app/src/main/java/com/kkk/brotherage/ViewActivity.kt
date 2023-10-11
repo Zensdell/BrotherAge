@@ -209,7 +209,7 @@ class ViewActivity : AppCompatActivity() {
                         .setTitle("댓글 이용 약관")
                         .setMessage("응원 댓글이 다음과 같을 경우 통보없이 댓글이 삭제되거나 응원댓글 작성에 제한을 받을 수 있습니다.\n\n *타인의 악의전인 비방이나 욕설이 있을 경우 \n *특정인의 명예훼손의 우려가 있는 경우 \n")
                         .setNeutralButton("이용약관 보기") {dialog, which ->
-                            val uri = Uri.parse("https://sites.google.com/view/mstrot3use/")
+                            val uri = Uri.parse("https://sites.google.com/view/broageuse")
                             val intent = Intent(Intent.ACTION_VIEW, uri)
                             startActivity(intent)
                             cmEdit.clearFocus()
@@ -291,7 +291,7 @@ class ViewActivity : AppCompatActivity() {
 
         val shareButton = findViewById<Button>(R.id.shareBtn)
         shareButton.setOnClickListener { try {
-            val sendText = "감동의 무대를 선사한 미스트롯3 함께 응원해요! 다운로드 - https://play.google.com/store/apps/details?id=com.kkk.mstrot3"
+            val sendText = "감동의 무대를 선사한 8090 오빠시대 함께 응원해요! 다운로드 - https://play.google.com/store/apps/details?id=com.kkk.brotherage"
             val sendIntent = Intent()
             sendIntent.action = Intent.ACTION_SEND
             sendIntent.putExtra(Intent.EXTRA_TEXT, sendText)

@@ -32,7 +32,7 @@ class StageWebView : AppCompatActivity() {
         }
 
         val ytName = findViewById<TextView>(R.id.yt_namelist)
-        ytName.text = "미스트롯3 $singerId 무대영상"
+        ytName.text = "오빠시대 $singerId 무대영상"
 
 
     }
